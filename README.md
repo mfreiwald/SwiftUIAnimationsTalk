@@ -5,6 +5,8 @@ at the shared Mobile Developer Meeting of [Joyn](https://www.joyn.de/) and [Netl
 
 <img src="images/image01.jpg" alt="It's me talking about Animations in SwiftUI" width="40%">
 
+The slidedeck is a SwiftUI MacOS app created with [DeckUI](https://github.com/joshdholtz/DeckUI).
+
 ## Demo App - Stream Seeker
 
 <img src="images/streamseeker.png" alt="Stream Seeker Demo App Screen" width="20%">
