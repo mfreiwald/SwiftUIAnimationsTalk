@@ -8,18 +8,67 @@
 
 /* Begin PBXBuildFile section */
 		4C4680992A13FC2D00C0FC20 /* SwiftUIAnimationsTalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4680982A13FC2D00C0FC20 /* SwiftUIAnimationsTalkApp.swift */; };
-		4C46809B2A13FC2D00C0FC20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C46809A2A13FC2D00C0FC20 /* ContentView.swift */; };
 		4C46809D2A13FC3700C0FC20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C46809C2A13FC3700C0FC20 /* Assets.xcassets */; };
 		4C4680A02A13FC3700C0FC20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C46809F2A13FC3700C0FC20 /* Preview Assets.xcassets */; };
+		4C4680B52A14032300C0FC20 /* 05_AnimationsInSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4680A82A14032300C0FC20 /* 05_AnimationsInSwiftUI.swift */; };
+		4C4680B62A14032300C0FC20 /* 11_Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4680A92A14032300C0FC20 /* 11_Summary.swift */; };
+		4C4680B72A14032300C0FC20 /* 10_Learnings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4680AA2A14032300C0FC20 /* 10_Learnings.swift */; };
+		4C4680B82A14032300C0FC20 /* 03_Netflix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4680AB2A14032300C0FC20 /* 03_Netflix.swift */; };
+		4C4680B92A14032300C0FC20 /* 11_Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4680AC2A14032300C0FC20 /* 11_Final.swift */; };
+		4C4680BA2A14032300C0FC20 /* 04_StreamSeekerIntroDemoSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4680AD2A14032300C0FC20 /* 04_StreamSeekerIntroDemoSlide.swift */; };
+		4C4680BB2A14032300C0FC20 /* 02_WhoAmI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4680AE2A14032300C0FC20 /* 02_WhoAmI.swift */; };
+		4C4680BC2A14032300C0FC20 /* 07_MatchedGeometryEffect_Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4680AF2A14032300C0FC20 /* 07_MatchedGeometryEffect_Transition.swift */; };
+		4C4680BD2A14032300C0FC20 /* 07_MatchedGeometryEffect_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4680B02A14032300C0FC20 /* 07_MatchedGeometryEffect_Example.swift */; };
+		4C4680BE2A14032300C0FC20 /* 06_Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4680B12A14032300C0FC20 /* 06_Transitions.swift */; };
+		4C4680BF2A14032300C0FC20 /* 01_Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4680B22A14032300C0FC20 /* 01_Welcome.swift */; };
+		4C4680C02A14032300C0FC20 /* 11_HeroSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4680B32A14032300C0FC20 /* 11_HeroSlide.swift */; };
+		4C4680C12A14032300C0FC20 /* 07_MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4680B42A14032300C0FC20 /* 07_MatchedGeometryEffect.swift */; };
+		4C4680C62A14033300C0FC20 /* LiveCodingProfileSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4680C22A14033300C0FC20 /* LiveCodingProfileSelection.swift */; };
+		4C4680C72A14033300C0FC20 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4680C32A14033300C0FC20 /* Helper.swift */; };
+		4C4680C82A14033300C0FC20 /* Documentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4680C42A14033300C0FC20 /* Documentation.swift */; };
+		4C4680CB2A14033900C0FC20 /* SlideHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4680CA2A14033900C0FC20 /* SlideHelper.swift */; };
+		4C4680D02A14043400C0FC20 /* DeckUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4C4680CF2A14043400C0FC20 /* DeckUI */; };
+		4C4680D22A14048900C0FC20 /* IphoneFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4680D12A14048900C0FC20 /* IphoneFrame.swift */; };
+		4C4680DD2A14079200C0FC20 /* HeroSlowMode.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4C4680D62A14078000C0FC20 /* HeroSlowMode.mov */; };
+		4C4680DE2A14079200C0FC20 /* ProfileLoadingCompareNetflix.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4C4680D72A14078100C0FC20 /* ProfileLoadingCompareNetflix.mov */; };
+		4C4680DF2A14079200C0FC20 /* StreamSeekerDemo.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4C4680D82A14078400C0FC20 /* StreamSeekerDemo.mov */; };
+		4C4680E02A14079200C0FC20 /* Transition-Preview-Simulator.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4C4680D92A14078400C0FC20 /* Transition-Preview-Simulator.mov */; };
+		4C4680E12A14079200C0FC20 /* Livecoding-Move.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4C4680DA2A14078F00C0FC20 /* Livecoding-Move.mov */; };
+		4C4680E22A14079200C0FC20 /* NetflixApp.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4C4680DB2A14079000C0FC20 /* NetflixApp.mov */; };
+		4C4680E32A14079200C0FC20 /* Livecoding-ProfileSelection.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4C4680DC2A14079200C0FC20 /* Livecoding-ProfileSelection.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C4680952A13FC2D00C0FC20 /* SwiftUIAnimationsTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimationsTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C4680982A13FC2D00C0FC20 /* SwiftUIAnimationsTalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationsTalkApp.swift; sourceTree = "<group>"; };
-		4C46809A2A13FC2D00C0FC20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C46809C2A13FC3700C0FC20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C46809F2A13FC3700C0FC20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4C4680A12A13FC3700C0FC20 /* SwiftUIAnimationsTalk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIAnimationsTalk.entitlements; sourceTree = "<group>"; };
+		4C4680A82A14032300C0FC20 /* 05_AnimationsInSwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 05_AnimationsInSwiftUI.swift; sourceTree = "<group>"; };
+		4C4680A92A14032300C0FC20 /* 11_Summary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 11_Summary.swift; sourceTree = "<group>"; };
+		4C4680AA2A14032300C0FC20 /* 10_Learnings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 10_Learnings.swift; sourceTree = "<group>"; };
+		4C4680AB2A14032300C0FC20 /* 03_Netflix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 03_Netflix.swift; sourceTree = "<group>"; };
+		4C4680AC2A14032300C0FC20 /* 11_Final.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 11_Final.swift; sourceTree = "<group>"; };
+		4C4680AD2A14032300C0FC20 /* 04_StreamSeekerIntroDemoSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 04_StreamSeekerIntroDemoSlide.swift; sourceTree = "<group>"; };
+		4C4680AE2A14032300C0FC20 /* 02_WhoAmI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 02_WhoAmI.swift; sourceTree = "<group>"; };
+		4C4680AF2A14032300C0FC20 /* 07_MatchedGeometryEffect_Transition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 07_MatchedGeometryEffect_Transition.swift; sourceTree = "<group>"; };
+		4C4680B02A14032300C0FC20 /* 07_MatchedGeometryEffect_Example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 07_MatchedGeometryEffect_Example.swift; sourceTree = "<group>"; };
+		4C4680B12A14032300C0FC20 /* 06_Transitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 06_Transitions.swift; sourceTree = "<group>"; };
+		4C4680B22A14032300C0FC20 /* 01_Welcome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 01_Welcome.swift; sourceTree = "<group>"; };
+		4C4680B32A14032300C0FC20 /* 11_HeroSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 11_HeroSlide.swift; sourceTree = "<group>"; };
+		4C4680B42A14032300C0FC20 /* 07_MatchedGeometryEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 07_MatchedGeometryEffect.swift; sourceTree = "<group>"; };
+		4C4680C22A14033300C0FC20 /* LiveCodingProfileSelection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveCodingProfileSelection.swift; sourceTree = "<group>"; };
+		4C4680C32A14033300C0FC20 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		4C4680C42A14033300C0FC20 /* Documentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Documentation.swift; sourceTree = "<group>"; };
+		4C4680CA2A14033900C0FC20 /* SlideHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideHelper.swift; sourceTree = "<group>"; };
+		4C4680D12A14048900C0FC20 /* IphoneFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IphoneFrame.swift; sourceTree = "<group>"; };
+		4C4680D62A14078000C0FC20 /* HeroSlowMode.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = HeroSlowMode.mov; sourceTree = "<group>"; };
+		4C4680D72A14078100C0FC20 /* ProfileLoadingCompareNetflix.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = ProfileLoadingCompareNetflix.mov; sourceTree = "<group>"; };
+		4C4680D82A14078400C0FC20 /* StreamSeekerDemo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = StreamSeekerDemo.mov; sourceTree = "<group>"; };
+		4C4680D92A14078400C0FC20 /* Transition-Preview-Simulator.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Transition-Preview-Simulator.mov"; sourceTree = "<group>"; };
+		4C4680DA2A14078F00C0FC20 /* Livecoding-Move.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Livecoding-Move.mov"; sourceTree = "<group>"; };
+		4C4680DB2A14079000C0FC20 /* NetflixApp.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = NetflixApp.mov; sourceTree = "<group>"; };
+		4C4680DC2A14079200C0FC20 /* Livecoding-ProfileSelection.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Livecoding-ProfileSelection.mov"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C4680D02A14043400C0FC20 /* DeckUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				4C4680982A13FC2D00C0FC20 /* SwiftUIAnimationsTalkApp.swift */,
-				4C46809A2A13FC2D00C0FC20 /* ContentView.swift */,
+				4C4680A72A14031A00C0FC20 /* Slides */,
+				4C4680D32A1404CF00C0FC20 /* DeckUI */,
+				4C4680D52A14077400C0FC20 /* Videos */,
 				4C46809C2A13FC3700C0FC20 /* Assets.xcassets */,
 				4C4680A12A13FC3700C0FC20 /* SwiftUIAnimationsTalk.entitlements */,
 				4C46809E2A13FC3700C0FC20 /* Preview Content */,
@@ -67,6 +119,52 @@
 				4C46809F2A13FC3700C0FC20 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C4680A72A14031A00C0FC20 /* Slides */ = {
+			isa = PBXGroup;
+			children = (
+				4C4680B22A14032300C0FC20 /* 01_Welcome.swift */,
+				4C4680AE2A14032300C0FC20 /* 02_WhoAmI.swift */,
+				4C4680AB2A14032300C0FC20 /* 03_Netflix.swift */,
+				4C4680AD2A14032300C0FC20 /* 04_StreamSeekerIntroDemoSlide.swift */,
+				4C4680A82A14032300C0FC20 /* 05_AnimationsInSwiftUI.swift */,
+				4C4680B12A14032300C0FC20 /* 06_Transitions.swift */,
+				4C4680C22A14033300C0FC20 /* LiveCodingProfileSelection.swift */,
+				4C4680B02A14032300C0FC20 /* 07_MatchedGeometryEffect_Example.swift */,
+				4C4680AF2A14032300C0FC20 /* 07_MatchedGeometryEffect_Transition.swift */,
+				4C4680B42A14032300C0FC20 /* 07_MatchedGeometryEffect.swift */,
+				4C4680AA2A14032300C0FC20 /* 10_Learnings.swift */,
+				4C4680B32A14032300C0FC20 /* 11_HeroSlide.swift */,
+				4C4680A92A14032300C0FC20 /* 11_Summary.swift */,
+				4C4680AC2A14032300C0FC20 /* 11_Final.swift */,
+			);
+			path = Slides;
+			sourceTree = "<group>";
+		};
+		4C4680D32A1404CF00C0FC20 /* DeckUI */ = {
+			isa = PBXGroup;
+			children = (
+				4C4680C42A14033300C0FC20 /* Documentation.swift */,
+				4C4680D12A14048900C0FC20 /* IphoneFrame.swift */,
+				4C4680CA2A14033900C0FC20 /* SlideHelper.swift */,
+				4C4680C32A14033300C0FC20 /* Helper.swift */,
+			);
+			path = DeckUI;
+			sourceTree = "<group>";
+		};
+		4C4680D52A14077400C0FC20 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				4C4680D62A14078000C0FC20 /* HeroSlowMode.mov */,
+				4C4680DA2A14078F00C0FC20 /* Livecoding-Move.mov */,
+				4C4680DC2A14079200C0FC20 /* Livecoding-ProfileSelection.mov */,
+				4C4680DB2A14079000C0FC20 /* NetflixApp.mov */,
+				4C4680D72A14078100C0FC20 /* ProfileLoadingCompareNetflix.mov */,
+				4C4680D82A14078400C0FC20 /* StreamSeekerDemo.mov */,
+				4C4680D92A14078400C0FC20 /* Transition-Preview-Simulator.mov */,
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +183,9 @@
 			dependencies = (
 			);
 			name = SwiftUIAnimationsTalk;
+			packageProductDependencies = (
+				4C4680CF2A14043400C0FC20 /* DeckUI */,
+			);
 			productName = SwiftUIAnimationsTalk;
 			productReference = 4C4680952A13FC2D00C0FC20 /* SwiftUIAnimationsTalk.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +214,9 @@
 				Base,
 			);
 			mainGroup = 4C46808C2A13FC2D00C0FC20;
+			packageReferences = (
+				4C4680CE2A14043400C0FC20 /* XCRemoteSwiftPackageReference "DeckUI" */,
+			);
 			productRefGroup = 4C4680962A13FC2D00C0FC20 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +231,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C4680DE2A14079200C0FC20 /* ProfileLoadingCompareNetflix.mov in Resources */,
+				4C4680E32A14079200C0FC20 /* Livecoding-ProfileSelection.mov in Resources */,
+				4C4680DD2A14079200C0FC20 /* HeroSlowMode.mov in Resources */,
+				4C4680DF2A14079200C0FC20 /* StreamSeekerDemo.mov in Resources */,
+				4C4680E12A14079200C0FC20 /* Livecoding-Move.mov in Resources */,
+				4C4680E02A14079200C0FC20 /* Transition-Preview-Simulator.mov in Resources */,
+				4C4680E22A14079200C0FC20 /* NetflixApp.mov in Resources */,
 				4C4680A02A13FC3700C0FC20 /* Preview Assets.xcassets in Resources */,
 				4C46809D2A13FC3700C0FC20 /* Assets.xcassets in Resources */,
 			);
@@ -139,8 +250,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C46809B2A13FC2D00C0FC20 /* ContentView.swift in Sources */,
+				4C4680BC2A14032300C0FC20 /* 07_MatchedGeometryEffect_Transition.swift in Sources */,
+				4C4680C82A14033300C0FC20 /* Documentation.swift in Sources */,
 				4C4680992A13FC2D00C0FC20 /* SwiftUIAnimationsTalkApp.swift in Sources */,
+				4C4680C12A14032300C0FC20 /* 07_MatchedGeometryEffect.swift in Sources */,
+				4C4680B62A14032300C0FC20 /* 11_Summary.swift in Sources */,
+				4C4680B82A14032300C0FC20 /* 03_Netflix.swift in Sources */,
+				4C4680B52A14032300C0FC20 /* 05_AnimationsInSwiftUI.swift in Sources */,
+				4C4680B72A14032300C0FC20 /* 10_Learnings.swift in Sources */,
+				4C4680C72A14033300C0FC20 /* Helper.swift in Sources */,
+				4C4680D22A14048900C0FC20 /* IphoneFrame.swift in Sources */,
+				4C4680BF2A14032300C0FC20 /* 01_Welcome.swift in Sources */,
+				4C4680BA2A14032300C0FC20 /* 04_StreamSeekerIntroDemoSlide.swift in Sources */,
+				4C4680BB2A14032300C0FC20 /* 02_WhoAmI.swift in Sources */,
+				4C4680CB2A14033900C0FC20 /* SlideHelper.swift in Sources */,
+				4C4680BD2A14032300C0FC20 /* 07_MatchedGeometryEffect_Example.swift in Sources */,
+				4C4680C62A14033300C0FC20 /* LiveCodingProfileSelection.swift in Sources */,
+				4C4680C02A14032300C0FC20 /* 11_HeroSlide.swift in Sources */,
+				4C4680BE2A14032300C0FC20 /* 06_Transitions.swift in Sources */,
+				4C4680B92A14032300C0FC20 /* 11_Final.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +464,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4C4680CE2A14043400C0FC20 /* XCRemoteSwiftPackageReference "DeckUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mfreiwald/DeckUI";
+			requirement = {
+				branch = SwiftUIAnimationsTalk;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C4680CF2A14043400C0FC20 /* DeckUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C4680CE2A14043400C0FC20 /* XCRemoteSwiftPackageReference "DeckUI" */;
+			productName = DeckUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4C46808D2A13FC2D00C0FC20 /* Project object */;
 }

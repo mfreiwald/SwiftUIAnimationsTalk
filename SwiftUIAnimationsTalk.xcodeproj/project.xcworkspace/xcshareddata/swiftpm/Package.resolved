@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "deckui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mfreiwald/DeckUI",
+      "state" : {
+        "branch" : "SwiftUIAnimationsTalk",
+        "revision" : "fabf470ba7dd4972412e592c314e9cc0096903e2"
+      }
+    },
+    {
+      "identity" : "splash",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/johnsundell/Splash.git",
+      "state" : {
+        "revision" : "7f4df436eb78fe64fe2c32c58006e9949fa28ad8",
+        "version" : "0.16.0"
+      }
+    }
+  ],
+  "version" : 2
+}
